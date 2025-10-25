@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app">Loading...</div>
+
+  <script>
+    window.$docsify = {
+      name: '我的知识库', // 网站标题
+      repo: 'uufishtxl/my-tech-notebook', // 你的GitHub仓库地址
+      loadSidebar: true, // 开启侧边栏
+      subMaxLevel: 3,    // 侧边栏自动生成的目录最大层级
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md' // 全局加载侧边栏文件
+      }
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+</body>
+</html>
