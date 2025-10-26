@@ -2,4 +2,13 @@
 
 这是我的学习笔记和总结。
 
-- [前端](./docs/frontend/ssr-vs-csr.md)
+* [**主页**](/)
+
+* **前端开发**
+  * [SSR vs CSR](./docs/frontend/ssr-vs-csr.md)
+
+* **Python 后端**
+  * [Django Templates](./docs/backend/django/01-templates-syntax.md)
+
+* **看美剧学地道美语**
+  * [Good Luck, Charlie](./docs/english/good_luck_charlie/25_10_25.md)
