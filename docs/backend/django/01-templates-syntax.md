@@ -90,3 +90,122 @@ DTL 的语法主要由三部分组成：
     <p>...</p>
 {% endblock %}
 ```
+
+### B. 逻辑与控制流
+
+`{% if %}` / `{% elif %}` / `{% else %}`
+
+用于条件判断。支持 `and`, `or`, `not` 以及 `==`, `!=`, `<`, `>`, `<=`, `>=` 等操作符。
+
+```html
+{% if user.is_authenticated %}
+    <p>欢迎, {{ user.username }}!</p>
+{% elif user.is_guest %}
+    <p>欢迎, 游客!</p>
+{% else %}
+    <p>请 <a href="{% url 'login' %}">登录</a>.</p>
+{% endif %}
+```
+
+`{% for %}`
+
+用于遍历可迭代对象（如列表、QuerySet）。
+
+- `{% empty %}`: 当迭代的列表为空时，将执行 {% empty %} 块内的代码。
+
+- `forloop` 变量: 在循环内部，DTL 提供了一些内置变量：
+
+  - `forloop.counter`: 循环计数 (从 1 开始)
+
+  - `forloop.counter0`: 循环计数 (从 0 开始)
+
+  - `forloop.first`: 是否为第一次循环 (True/False)
+
+  - `forloop.last`: 是否为最后一次循环 (True/False)
+
+```html
+<ul>
+{% for item in item_list %}
+    <li class="{% if forloop.first %}first{% endif %}">
+        {{ forloop.counter }}. {{ item.name }}
+    </li>
+{% empty %}
+    <li>没有可显示的项目。</li>
+{% endfor %}
+</ul>
+```
+
+### C. 加载与包含 (Loading & Inclusion)
+
+`{% load static %}` 和 `{% static %}`
+
+`{% load static %}` 标签用于加载 Django 的 `static` 标签库，之后才能使用 `{% static %}` 标签来生成静态文件（CSS, JS, 图片）的 URL。
+
+- 作用: 动态管理静态文件路径，便于部署时统一配置。
+
+- 位置: 通常放在 `{% extends %}` 标签之后，文件的顶部。
+
+```html
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<img src="{% static 'images/logo.png' %}" alt="Logo">
+···
+
+`{% include %}`
+
+用于将另一个模板文件的内容插入到当前位置。非常适合用于重构可复用的 HTML 片段（如导航栏、页脚）。
+
+```html
+<body>
+    {% include 'partials/_navigation.html' %}
+    
+    <div class="content">
+        ...
+    </div>
+    
+    {% include 'partials/_footer.html' %}
+</body>
+```
+
+### D. 其他关键标签
+
+`{% url %}`
+
+(极其重要) 用于动态地根据 urls.py 中定义的 URL 模式的 `name` 来反向生成 URL 路径。这避免了在模板中硬编码 URL。
+
+```python
+# urls.py 示例:
+# path('', views.home, name='homepage')
+# path('posts/<int:post_id>/', views.post_detail, name='post_detail')
+```
+
+```html
+<a href="{% url 'homepage' %}">返回首页</a>
+<a href="{% url 'post_detail' post.id %}">{{ post.title }}</a>
+```
+
+`{% csrf_token %}`
+
+```html
+<form method="POST" action="">
+    {% csrf_token %}
+    <button type="submit">提交</button>
+</form>
+```
+
+## 过滤器 (Filters): `{{ ... | ... }}`
+
+过滤器用于在变量显示之前对其进行修改或格式化。
+
+语法: `{{ variable | filter_name }}` 或 `{{ variable | filter_name:"argument" }}`
+
+### 常用过滤器
+
+| 过滤器 | 描述 | 示例 |
+| :--- | :--- | :--- |
+| `date` | 格式化日期时间对象。 | `{{ post.created_at \| date:"Y-m-d H:i" }}` |
+| `truncatewords` | 将字符串截断为指定数量的单词。 | `{{ post.body \| truncatewords:30 }}` |
+| `length` | 返回变量的长度（适用于列表、字符串等）。 | `{{ my_list \| length }}` |
+| `upper` / `lower` | 转换为大写或小写。 | `{{ "Hello" \| lower }}` |
+| `default` | 如果变量为 `False` 或 `None`，则使用默认值。 | `{{ user.bio \| default:"该用户很懒..." }}` |
+| `safe` | (慎用) 标记字符串为“安全”，使其不被 Django 转义。 | `{{ post.html_content \| safe }}` |
