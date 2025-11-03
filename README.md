@@ -6,6 +6,9 @@
 
 * **前端开发**
   * [SSR vs CSR](./docs/frontend/ssr-vs-csr.md)
+  * [持久化 Pinia状态](./docs/frontend/vue.js/02-persisted-pinia-states.md)
+  * [路由守卫](./docs/frontend/vue.js/03-router-guard.md)
+  * [Vite + Vue 3 图标管理方案：`unplugin-icons`](./docs/frontend/vue.js/04-svg-loader.md)
 
 * **Python 后端**
   * [Django Templates](./docs/backend/django/00-README.md)
