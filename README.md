@@ -20,3 +20,12 @@
   * [Python 工程化与基础](./interviews/python/engineering_core.md)
   * [Django 框架](./interviews/python/django.md)
   * [软件架构与数据库](./interviews/python/architecture_db.md)
+
+# 关于 Obsidian 的一些快捷键
+
+* `[[]]`快速建立链接
+   我要建立一个链接[[architecture_db]]
+* 背景高亮：``==`` ==高亮我吧==
+* 删除线：`~~`(两个！)   ~~删除我~~
+* 插入表格 `CTRL+P` > 搜索`Table`
+* 

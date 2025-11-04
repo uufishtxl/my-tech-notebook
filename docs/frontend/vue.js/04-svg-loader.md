@@ -218,7 +218,38 @@ export default defineConfig({
 ```
 
 > [!TIP]
-> ✨ 如果本地 SVG 文件内部（例如 <path> 标签写死了 `fill="#000"`，这个硬编码颜色的优先级更高，会导致 `color` 样式失效。需要确保本地 SVG 是干净的，移除了内部颜色定义。
+> ✨ 如果本地 SVG 文件内部（例如 <path> 标签写死了 `fill="#000"`，这个硬编码颜色的优先级更高，会导致 `color` 样式失效。需要确保本地 SVG 是干净的，移除了内部颜色定义。如果无法更改大小，可能是 SVG 图标内部写死了 `width` 和 `height`。同样，可以通过 `vite.config.ts` 进行清理。
+
+```TypeScript
+export default defineConfig((config) => {
+  //...
+  return {
+    //...
+    plugins: [
+      // ...
+      Icons({
+        compiler: 'vue3', // 使用 Vue 3 编译器
+        autoInstall: true, // 自动安装需要的图标集
+
+        // 6. (可选) 定义本地 SVG 图标集的加载器
+        // vite.config.js
+        customCollections: {
+          local: FileSystemIconLoader(
+            './src/icons',
+            svg => svg
+              .replace(/^<svg /, '<svg fill="currentColor" ') // 清理 Color
+              // 使用正则表达式查找并移除 width="..." 属性
+              .replace(/ width="[^"]*"/, '') // 清理 width
+              // 使用正则表达式查找并移除 height="..." 属性
+              .replace(/ height="[^"]*"/, '') // 清理 height
+          ),
+        },
+      })
+      // ...
+    ]
+  }
+})
+```
 
 ## 总结：打包（`npm run build`）
 

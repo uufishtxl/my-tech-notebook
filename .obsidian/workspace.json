@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "27032b2593e34e2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8b136e33cee0808",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "175a3526a03eb1a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/dev-setup/lan-access-tutorial.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lan-access-tutorial"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9da36fd225c58c6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbdd1586b893cd1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "736b07d5b36efaf6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b101fb30b1de0aad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3639d74898434560",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "91e752f733be34fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca928e2412f56124",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2e6c2461e31217d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/dev-setup/lan-access-tutorial.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for lan-access-tutorial"
+            }
+          },
+          {
+            "id": "e0025052b1f1f384",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/dev-setup/lan-access-tutorial.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from lan-access-tutorial"
+            }
+          },
+          {
+            "id": "505dd4cce5bbc7df",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e69b0c03a44d6a45",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/dev-setup/lan-access-tutorial.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of lan-access-tutorial"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "graph:Open graph view": false
+    }
+  },
+  "active": "175a3526a03eb1a0",
+  "lastOpenFiles": [
+    "lan-access-tutorial.md",
+    "docs/dev-setup/lan-access-tutorial.md",
+    "docs/dev-setup",
+    "docs/backend/django/08-django-models.md",
+    "docs/backend/django/01-setup-concepts.md",
+    "docs/backend/django/00-README.md",
+    "interviews/vue/01-application-status-and-life-cycle.md",
+    "interviews/python/engineering_core.md",
+    "interviews/python/django.md",
+    "interviews/python/architecture_db.md",
+    "interviews/http/01-http.md",
+    "interviews/mind-map.canvas",
+    "Calendar/2025-11-04.md",
+    "README.md",
+    "Calendar",
+    "Untitled.base",
+    "_sidebar.md",
+    "勇敢小蛇_样品.jpg",
+    "Python异步编程实现方式.md",
+    "链接名字可以改吗.md"
+  ]
+}
