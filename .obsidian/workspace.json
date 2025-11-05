@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/dev-setup/lan-access-tutorial.md",
+                "file": "docs/backend/django/django-rest-api-summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lan-access-tutorial"
+              "title": "django-rest-api-summary"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/dev-setup/lan-access-tutorial.md",
+                "file": "Calendar/2025-11-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for lan-access-tutorial"
+              "title": "Backlinks for 2025-11-05"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/dev-setup/lan-access-tutorial.md",
+                "file": "Calendar/2025-11-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from lan-access-tutorial"
+              "title": "Outgoing links from 2025-11-05"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/dev-setup/lan-access-tutorial.md",
+                "file": "Calendar/2025-11-05.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lan-access-tutorial"
+              "title": "Outline of 2025-11-05"
             }
           }
         ],
@@ -169,10 +169,52 @@
       "graph:Open graph view": false
     }
   },
-  "active": "175a3526a03eb1a0",
+  "floating": {
+    "id": "5bfc24059eee93c7",
+    "type": "floating",
+    "children": [
+      {
+        "id": "e2d5d99259570757",
+        "type": "window",
+        "children": [
+          {
+            "id": "19e868f69ff5969a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "26c12c1dc5af4d02",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Calendar/2025-11-05.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "2025-11-05"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2921,
+        "y": 12,
+        "width": 1173,
+        "height": 1363,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "26c12c1dc5af4d02",
   "lastOpenFiles": [
-    "lan-access-tutorial.md",
+    "docs/backend/django/django-rest-api-summary.md",
+    "Calendar/2025-11-05.md",
+    "Calendar/2025-11-04.md",
     "docs/dev-setup/lan-access-tutorial.md",
+    "lan-access-tutorial.md",
     "docs/dev-setup",
     "docs/backend/django/08-django-models.md",
     "docs/backend/django/01-setup-concepts.md",
@@ -183,7 +225,6 @@
     "interviews/python/architecture_db.md",
     "interviews/http/01-http.md",
     "interviews/mind-map.canvas",
-    "Calendar/2025-11-04.md",
     "README.md",
     "Calendar",
     "Untitled.base",
