@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "django-rest-api-summary"
             }
+          },
+          {
+            "id": "30dd4365463a797b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/english/friends/S10 E12.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "S10 E12"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/2025-11-05.md",
+                "file": "docs/english/friends/S10 E12.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-11-05"
+              "title": "Outline of S10 E12"
             }
           }
         ],
@@ -169,55 +184,21 @@
       "graph:Open graph view": false
     }
   },
-  "floating": {
-    "id": "5bfc24059eee93c7",
-    "type": "floating",
-    "children": [
-      {
-        "id": "e2d5d99259570757",
-        "type": "window",
-        "children": [
-          {
-            "id": "19e868f69ff5969a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "26c12c1dc5af4d02",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Calendar/2025-11-05.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "2025-11-05"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2921,
-        "y": 12,
-        "width": 1173,
-        "height": 1363,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "26c12c1dc5af4d02",
+  "active": "30dd4365463a797b",
   "lastOpenFiles": [
-    "docs/backend/django/django-rest-api-summary.md",
+    "Calendar/2025-11-06.md",
+    "docs/english/friends/S10 E12.md",
+    "Untitled",
+    "docs/english/friends",
+    "Calendar/2025-11-07.md",
+    "docs/backend/django/01-setup-concepts.md",
     "Calendar/2025-11-05.md",
     "Calendar/2025-11-04.md",
+    "docs/backend/django/django-rest-api-summary.md",
     "docs/dev-setup/lan-access-tutorial.md",
     "lan-access-tutorial.md",
     "docs/dev-setup",
     "docs/backend/django/08-django-models.md",
-    "docs/backend/django/01-setup-concepts.md",
     "docs/backend/django/00-README.md",
     "interviews/vue/01-application-status-and-life-cycle.md",
     "interviews/python/engineering_core.md",
