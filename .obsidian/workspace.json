@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0d8e6389fd5f6054",
+        "id": "803ef2893a2367d9",
         "type": "tabs",
         "children": [
           {
-            "id": "ba6fb702eae5e559",
+            "id": "5c299d9f90806d3f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,8 +164,14 @@
       "graph:Open graph view": false
     }
   },
-  "active": "ba6fb702eae5e559",
+  "active": "5c299d9f90806d3f",
   "lastOpenFiles": [
+    "diagrams/travel_of_an_api_request_in_django.png",
+    "docs/english/friends/S10_E12.md",
+    "README.md",
+    "docs/english/good_luck_charlie/25_10_25.md",
+    "Calendar/2025-11-12.md",
+    "interviews/python/drf_and_advanced.md",
     "docs/tools/ffmpeg-commands.md",
     "docs/backend/django/14-django-signals.md",
     "docs/backend/django/13-file-uploads.md",
@@ -179,14 +185,11 @@
     "docs/frontend/axios/02-features.md",
     "docs/tools",
     "docs/python",
-    "Calendar/2025-11-12.md",
     "Calendar/2025-11-11.md",
     "Calendar/2025-11-07.md",
-    "diagrams/travel_of_an_api_request_in_django.png",
     "diagrams/deepseek_mermaid_20251113_57a75d.png",
     "diagrams",
     "新建文件夹",
-    "docs/english/friends/S10 E12.md",
     "docs/backend/django/django-rest-api-summary.md",
     "Pasted image 20251111135221.png.md",
     "wireframes/audio_slicer.load_source__select_chunk.png",
@@ -206,11 +209,7 @@
     "docs/backend/django/01-setup-concepts.md",
     "Calendar/2025-11-05.md",
     "Calendar/2025-11-04.md",
-    "docs/dev-setup/lan-access-tutorial.md",
-    "lan-access-tutorial.md",
     "docs/dev-setup",
-    "docs/backend/django/08-django-models.md",
-    "docs/backend/django/00-README.md",
     "interviews/mind-map.canvas",
     "Calendar"
   ]

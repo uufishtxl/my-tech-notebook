@@ -30,11 +30,13 @@
 
 * **看美剧学地道美语**
   * [Good Luck, Charlie](./docs/english/good_luck_charlie/25_10_25.md)
+  * [Friends S10 E12](./docs/english/friends/S10_E12)
 
 * **面经**
   * [Python 工程化与基础](./interviews/python/engineering_core.md)
   * [Django 框架](./interviews/python/django.md)
   * [软件架构与数据库](./interviews/python/architecture_db.md)
+  * [DRF 与后端进阶](./interviews/python/drf_and_advanced.md)
 
 # 关于 Obsidian 的一些快捷键
 
