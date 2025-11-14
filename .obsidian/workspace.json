@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d8b136e33cee0808",
+        "id": "0d8e6389fd5f6054",
         "type": "tabs",
         "children": [
           {
-            "id": "175a3526a03eb1a0",
+            "id": "ba6fb702eae5e559",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/backend/django/django-rest-api-summary.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "django-rest-api-summary"
-            }
-          },
-          {
-            "id": "30dd4365463a797b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calendar/2025-11-07.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-11-07"
-            }
-          },
-          {
-            "id": "f1bcf13c987de21f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calendar/2025-11-12.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-11-12"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 348.5
   },
   "right": {
     "id": "91e752f733be34fc",
@@ -171,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/2025-11-12.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-11-12"
+              "title": "Outline"
             }
           }
         ],
@@ -185,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 287.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,11 +164,29 @@
       "graph:Open graph view": false
     }
   },
-  "active": "f1bcf13c987de21f",
+  "active": "ba6fb702eae5e559",
   "lastOpenFiles": [
-    "docs/english/friends/S10 E12.md",
+    "docs/tools/ffmpeg-commands.md",
+    "docs/backend/django/14-django-signals.md",
+    "docs/backend/django/13-file-uploads.md",
+    "docs/backend/django/12-drf-serializers.md",
+    "docs/backend/django/11-drf-modelviewset.md",
+    "docs/backend/django/10-orm-m2m-relations.md",
+    "docs/backend/django/09-model-core-concepts.md",
+    "docs/python/03-subprocess-module.md",
+    "docs/python/02-type-hints-forward-references.md",
+    "docs/python/01-context-managers-with-statement.md",
+    "docs/frontend/axios/02-features.md",
+    "docs/tools",
+    "docs/python",
     "Calendar/2025-11-12.md",
     "Calendar/2025-11-11.md",
+    "Calendar/2025-11-07.md",
+    "diagrams/travel_of_an_api_request_in_django.png",
+    "diagrams/deepseek_mermaid_20251113_57a75d.png",
+    "diagrams",
+    "新建文件夹",
+    "docs/english/friends/S10 E12.md",
     "docs/backend/django/django-rest-api-summary.md",
     "Pasted image 20251111135221.png.md",
     "wireframes/audio_slicer.load_source__select_chunk.png",
@@ -214,12 +198,8 @@
     "wireframes",
     "images/audio_slicer.load_source.select_chunk.png",
     "images/audio_slicer.clip_library.png",
-    "images/audio_slicer.workbench.png",
-    "images/audio_slicer.load_source.upload.png",
     "images",
-    "新建文件夹",
     "Untitled.md",
-    "Calendar/2025-11-07.md",
     "Calendar/2025-11-06.md",
     "Untitled",
     "docs/english/friends",
@@ -231,17 +211,7 @@
     "docs/dev-setup",
     "docs/backend/django/08-django-models.md",
     "docs/backend/django/00-README.md",
-    "interviews/vue/01-application-status-and-life-cycle.md",
-    "interviews/python/engineering_core.md",
-    "interviews/python/django.md",
-    "interviews/python/architecture_db.md",
-    "interviews/http/01-http.md",
     "interviews/mind-map.canvas",
-    "README.md",
-    "Calendar",
-    "Untitled.base",
-    "_sidebar.md",
-    "Python异步编程实现方式.md",
-    "链接名字可以改吗.md"
+    "Calendar"
   ]
 }
