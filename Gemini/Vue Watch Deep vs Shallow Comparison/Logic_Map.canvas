@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"group-p3","type":"group","x":0,"y":1238,"width":900,"height":1040,"color":"3","label":"Web Browser APIs & Advanced Interactions"},
+		{"id":"group-p2","type":"group","x":1150,"y":0,"width":900,"height":988,"color":"2","label":"Core JavaScript Data Structures & Utilities"},
+		{"id":"group-p1","type":"group","x":0,"y":0,"width":900,"height":962,"color":"1","label":"Vue.js Core Concepts"},
+		{"id":"n1","type":"text","text":"### 💡 Vue.js Reactivity & Events\n\n• Core principles of Vue.js for reactive data management and event handling. • Forms the foundation for dynamic component behavior.\n\n---\n[[Gemini/Vue Watch Deep vs Shallow Comparison/001-20260119-1303.md|QA1]] [[Gemini/Vue Watch Deep vs Shallow Comparison/002-20260119-1303.md|QA2]] [[Gemini/Vue Watch Deep vs Shallow Comparison/003-20260119-1303.md|QA3]]","x":270,"y":100,"width":360,"height":302,"color":"1"},
+		{"id":"n2","type":"text","text":"### ⚙️ Vue Watcher Options\n\n• `deep: true` for monitoring [[Nested Property Changes]] within objects/arrays, not just [[Reference Changes]]. • `immediate: true` for [[Initial Data Synchronization]] by executing the watcher callback once on component mount.\n\n---\n[[Gemini/Vue Watch Deep vs Shallow Comparison/001-20260119-1303.md|QA1]] [[Gemini/Vue Watch Deep vs Shallow Comparison/002-20260119-1303.md|QA2]]","x":60,"y":522,"width":360,"height":380,"color":"0"},
+		{"id":"n3","type":"text","text":"### ⚡ Vue Event Modifiers\n\n• Special suffixes like `.prevent` for `v-on` directives to control [[DOM Event Handling]]. • `.prevent` calls `event.preventDefault()` to stop [[Default Browser Behavior]] (e.g., form submission, textarea newline).\n\n---\n[[Gemini/Vue Watch Deep vs Shallow Comparison/003-20260119-1303.md|QA3]]","x":480,"y":522,"width":360,"height":354,"color":"0"},
+		{"id":"n5","type":"text","text":"### 🗺️ JavaScript Map Data Type\n\n• A collection of [[Key-Value Pairs]] where keys can be [[Any Data Type]] (objects, functions, primitives), unlike [[JavaScript Objects]]. • Offers dedicated methods like `set()`, `get()`, `has()`, `size` for efficient management.\n\n---\n[[Gemini/Vue Watch Deep vs Shallow Comparison/004-20260119-1303.md|QA4]]","x":1210,"y":548,"width":360,"height":380,"color":"0"},
+		{"id":"n7","type":"text","text":"### 🌐 Browser Interaction APIs\n\n• Interfaces provided by web browsers for interacting with hardware, media, and complex DOM structures. • Enables rich, interactive web applications.\n\n---\n[[Gemini/Vue Watch Deep vs Shallow Comparison/006-20260119-1303.md|QA6]] [[Gemini/Vue Watch Deep vs Shallow Comparison/007-20260119-1303.md|QA7]] [[Gemini/Vue Watch Deep vs Shallow Comparison/008-20260119-1303.md|QA8]] [[Gemini/Vue Watch Deep vs Shallow Comparison/009-20260119-1303.md|QA9]]","x":270,"y":1338,"width":360,"height":302,"color":"3"},
+		{"id":"n8","type":"text","text":"### 🎙️ Web Audio Recording API\n\n• Uses [[MediaDevices API]] (`navigator.mediaDevices.getUserMedia`) for [[Microphone Access]]. • [[MediaRecorder API]] captures audio streams into chunks. • Crucial to call `track.stop()` on `mediaRecorder.stream.getTracks()` for [[Resource Management]] and releasing hardware.\n\n---\n[[Gemini/Vue Watch Deep vs Shallow Comparison/006-20260119-1303.md|QA6]] [[Gemini/Vue Watch Deep vs Shallow Comparison/007-20260119-1303.md|QA7]]","x":60,"y":1760,"width":360,"height":406,"color":"0"},
+		{"id":"n9","type":"text","text":"### ✍️ DOM Selection & Range API\n\n• `window.getSelection()` retrieves the user's current [[Text Selection]]. • [[DOM Range Object]] defines a continuous segment of content, potentially spanning multiple nodes. • `range.commonAncestorContainer` finds the [[Deepest Common Ancestor]] of a range. • Essential for building contextual UI elements (e.g., pop-up menus for selected text).\n\n---\n[[Gemini/Vue Watch Deep vs Shallow Comparison/008-20260119-1303.md|QA8]] [[Gemini/Vue Watch Deep vs Shallow Comparison/009-20260119-1303.md|QA9]]","x":480,"y":1760,"width":360,"height":458,"color":"0"},
+		{"id":"n4","type":"text","text":"### 📚 JavaScript Collections & Iteration\n\n• Fundamental data structures and methods for managing and processing collections of data in JavaScript. • Essential for organizing and querying information.\n\n---\n[[Gemini/Vue Watch Deep vs Shallow Comparison/004-20260119-1303.md|QA4]] [[Gemini/Vue Watch Deep vs Shallow Comparison/005-20260119-1303.md|QA5]]","x":1420,"y":100,"width":360,"height":328,"color":"2"},
+		{"id":"n6","type":"text","text":"### 🔍 Array.prototype.some() Method\n\n• Iterates an array to check if [[At Least One Element]] satisfies a provided testing function. • [[Short-Circuits]] on the first `true` result, returning `true` immediately.\n\n---\n[[Gemini/Vue Watch Deep vs Shallow Comparison/005-20260119-1303.md|QA5]]","x":1630,"y":548,"width":360,"height":328,"color":"0"}
+	],
+	"edges":[
+		{"id":"edge-inner-n1-n2","fromNode":"n1","fromSide":"bottom","toNode":"n2","toSide":"top","color":"0"},
+		{"id":"edge-inner-n1-n3","fromNode":"n1","fromSide":"bottom","toNode":"n3","toSide":"top","color":"0"},
+		{"id":"edge-inner-n4-n5","fromNode":"n4","fromSide":"bottom","toNode":"n5","toSide":"top","color":"0"},
+		{"id":"edge-inner-n4-n6","fromNode":"n4","fromSide":"bottom","toNode":"n6","toSide":"top","color":"0"},
+		{"id":"edge-inner-n7-n8","fromNode":"n7","fromSide":"bottom","toNode":"n8","toSide":"top","color":"0"},
+		{"id":"edge-inner-n7-n9","fromNode":"n7","fromSide":"bottom","toNode":"n9","toSide":"top","color":"0"},
+		{"id":"edge-ai-0","fromNode":"n2","fromSide":"bottom","toNode":"n1","toSide":"top","color":"4","label":"configures"},
+		{"id":"edge-ai-1","fromNode":"n3","fromSide":"bottom","toNode":"n1","toSide":"top","color":"4","label":"enhances"},
+		{"id":"edge-ai-2","fromNode":"n5","fromSide":"bottom","toNode":"n4","toSide":"top","color":"4","label":"is a type of"},
+		{"id":"edge-ai-3","fromNode":"n6","fromSide":"bottom","toNode":"n4","toSide":"top","color":"4","label":"is a method for"},
+		{"id":"edge-ai-4","fromNode":"n8","fromSide":"bottom","toNode":"n7","toSide":"top","color":"4","label":"is an example of"},
+		{"id":"edge-ai-5","fromNode":"n9","fromSide":"bottom","toNode":"n7","toSide":"top","color":"4","label":"is an example of"},
+		{"id":"edge-ai-6","fromNode":"n1","fromSide":"right","toNode":"n4","toSide":"left","color":"0","label":"often manages"},
+		{"id":"edge-ai-7","fromNode":"n4","fromSide":"bottom","toNode":"n7","toSide":"top","color":"0","label":"processes data from"},
+		{"id":"edge-ai-8","fromNode":"n7","fromSide":"right","toNode":"n1","toSide":"right","color":"0","label":"integrates with"}
+	]
+}
