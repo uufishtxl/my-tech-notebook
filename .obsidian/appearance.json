@@ -1,4 +1,7 @@
 {
   "cssTheme": "GitHub Theme",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "mermaid-fix"
+  ]
 }

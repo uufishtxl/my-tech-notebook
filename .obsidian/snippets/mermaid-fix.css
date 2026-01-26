@@ -1,0 +1,5 @@
+/* 强制 Mermaid 图表适应屏幕宽度，防止横向滚动 */
+.mermaid svg {
+  max-width: 100% !important;
+  height: auto !important;
+}
