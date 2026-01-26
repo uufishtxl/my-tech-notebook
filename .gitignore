@@ -215,4 +215,5 @@ __marimo__/
 /frontend/media/
 privacy/
 .obsidian/plugins/obsidian-local-rest-api/data.json
+.obsidian/plugins/obsidian-local-rest-api/
 20-Projects/
