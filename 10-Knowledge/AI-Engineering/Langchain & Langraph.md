@@ -47,4 +47,4 @@
 
 **总结**：LangChain 提供了构建智能体的基础组件，而 LangGraph 则在此基础上，允许你以声明式、模块化的方式，编排这些组件，处理更复杂的、带有状态和循环的决策流程。
 
-![[langchain_vs_langgraph.png]]
+![[langchain_vs_langgraph 1.png]]
