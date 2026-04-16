@@ -21,6 +21,28 @@
 
 ## 3. LangGraph：管理复杂工作流的框架
 
+## 🛠️ LangGraph 进阶机制：消息流与路由
+
+### ⚔️ `llm.bind_tools(TOOL_LIST)`：兵器谱模式
+将工具描述绑定到 LLM 上，这是 **“知行合一”** 第一步：
+- **逻辑本质 (Awareness)**：这并不代表 LLM 能够直接运行 Python。它只是将工具的 JSON Schema（名称、入参、描述）同步给了 LLM，让 LLM 在做决策时知道自己手头有哪些“兵器”可用。
+- **产出结果**：LLM 收到 Prompt 后，会返回一个包含 `tool_calls` 列表的信息，明确表达“我要调哪把兵器”，但真正的“挥刀”（函数执行）动作是由后传的 `ToolNode` 完成的。
+
+### 1. Reducer 函数：`add_messages`
+在 `State` 定义中，通过 `Annotated[list, add_messages]` 实现消息的自动合并。
+- **智能识别**：它既能接收单条消息 (`AIMessage`)，也能接收消息列表 (`[AIMessage]`)，并自动将它们追加到历史中。
+
+### 2. Node 返回逻辑：方法对象 vs. ToolNode
+- **Router Node**：通常返回一个包含 `next` 字段的字典，用于驱动条件边 (Conditional Edges)。
+- **ToolNode**：LangGraph 内置的执行节点，它会扫描 `AIMessage` 中的 `tool_calls` 并真实运行 Python 函数。
+
+### 3. 普通 Edge vs. 条件 Edge (回城路由模式)
+- **普通 Edge (`add_edge`)**：适用于单向、确定的节点流转。
+- **条件 Edge (`add_conditional_edges`)**：适用于 **Multi-Agent 共享工具** 场景。
+    - **痛点**：当多个 Agent (如 `script_editor` 和 `reader_editor`) 共用一个 `tools` 节点时，`tools` 执行完后无法自动知道该回跳给谁。
+    - **方案**：在 `tools` 后挂一个 `route_after_tools` 条件函数，读取 `state['next']` 中的“车票”信息进行精准回投。
+
+
 对于涉及多层条件、迭代、循环和状态管理的复杂流程，LangGraph 是更强大的选择。它将流程建模为图，提供了精细的控制能力。
 
 - **LangGraph 的核心组成部分**：

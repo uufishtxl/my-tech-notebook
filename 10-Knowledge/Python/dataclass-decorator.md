@@ -71,3 +71,21 @@ class Chunk:
 
 - `dataclass`：轻量，适合内部数据结构
 - `Pydantic`（`BaseModel`）：自动验证、JSON 序列化，适合 API 输入输出
+
+## 装饰器`frozen`的妙用：去重
+
+```python
+@dataclass(frozen=True)
+class WordItem:
+    text: str
+    pos: str # 词性
+
+words = [
+    WordItem("book", "noun"), 
+    WordItem("book", "verb"), 
+    WordItem("book", "noun") # 重复项
+]
+
+unique_words = set(words) 
+# 结果自动剩下 2 个！非常高效。
+```

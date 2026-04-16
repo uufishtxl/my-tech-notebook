@@ -1,0 +1,104 @@
+# Podcast Transcript
+
+- **[00:00]** Hey guys, so I wanted to start this video off by saying something that I think a lot of you need to hear and that is that you're not really behind or at least as behind as you think you are.
+- **[00:08]** I know that it feels every day there's something that you just need to know or you need to learn and if you're not on top of it all then you're somehow failing.
+- **[00:16]** And I also know that feeling is very real and I get it more than you know and I'll give you a real example of what I mean.
+- **[00:23]** Let's get in.
+- **[00:24]** Hey guys, so this video doesn't have a sponsor.
+- **[00:31]** Instead I wanted to tell you about my coding with AI course that I just launched.
+- **[00:34]** Now if you've known me for some time, you know that I always try to give my honest opinion.
+- **[00:39]** I hate all the overhyping when it comes to the current state of the industry and different tools, whether it's something I like or not.
+- **[00:46]** And my job is to teach and prepare you, not just tell you what you want to hear.
+- **[00:50]** Now of course the current thing we're dealing with is the whole shift to AI development, which of course has its pros and cons, but it's something that just can't be ignored.
+- **[00:59]** And for that reason, I put together my coding with AI course, which consists of 16 hours of learning a solid but simple workflow and project building to get you started with AI coding.
+- **[01:11]** And in this course, you'll learn about my personal process, my approach on how I work with AI to create real projects.
+- **[01:18]** And you'll learn about tools, workflows, testing, MCP, sub agents, and much more while building a real SaaS called DevStash.
+- **[01:27]** And I want to give a huge thanks to Neon.com, who partnered with me and purchased a thousand coupons of the course to give away, which is awesome because they really didn't have to do that.
+- **[01:37]** And they'll be doing their giveaways on their social platforms.
+- **[01:40]** So be sure to pay attention when they do so you can get a free copy if you can't afford to buy the course.
+- **[01:45]** And I'll also be sure to share the giveaways on my socials as well.
+- **[01:49]** So if you're interested, I'll have the course and the social links in the description.
+- **[01:52]** Alright, so I'm just going to give you a quick example and actually what prompted me to make this video.
+- **[01:57]** So I was on Discord on my Traverse Media server a few days ago and someone had mentioned a tool, a new AI tool, and I told them I hadn't gotten around to trying it yet.
+- **[02:10]** And as I said that, I was feeling like a sense of like embarrassment or slight shame because I haven't tried it yet.
+- **[02:17]** And you know, I've been doing this almost 20 years running this channel, actively building products, writing code every single day.
+- **[02:23]** And I felt embarrassed for not knowing some tool that dropped two weeks ago.
+- **[02:28]** And I caught myself and thought, why haven't I tried it yet?
+- **[02:31]** And it's because I spent the last four months or so going all in on my AI course.
+- **[02:37]** We've been working on a teaching platform, building side projects, managing the channel, managing the business.
+- **[02:43]** I've been doing meaningful things of substance, but I still felt behind.
+- **[02:47]** You know, and that's the illusion that I'm talking about, especially being a content creator because I feel like I'm really supposed to be on top of everything.
+- **[02:56]** But I see a lot of you guys feeling that same way, very overwhelmed and feeling like you're expected to master every new tool and be on top of every new piece of tech news that's released.
+- **[03:07]** But the reality is that that's not really possible.
+- **[03:10]** Unless you aren't really doing anything of substance.
+- **[03:14]** So the pace right now, especially around AI tooling, is really unlike anything I've seen in my career.
+- **[03:21]** You know, just as a quick overview, we had GitHub co-pilot, which basically was the only game in town for a while.
+- **[03:28]** And we all got used to that.
+- **[03:29]** But then overnight, we just had cursor blow up.
+- **[03:32]** When Surf came out, people said that was the new best thing.
+- **[03:35]** And Cloud Code was released a few months later, became the most used AI coding tool among professional developers.
+- **[03:43]** Then OpenAI dropped codecs, Google launched anti-gravity, then AWS with Kiro, and a bunch more.
+- **[03:51]** And these are serious big AI coding tools competing for your attention.
+- **[03:56]** And that's just one category.
+- **[03:58]** That's not counting things like the frameworks, the meta frameworks, the bundlers, run times, queries.
+- **[04:05]** There's just so much out there.
+- **[04:07]** And social media just makes it so much worse.
+- **[04:11]** Something drops on a Monday, and by Wednesday, everyone on Twitter and YouTube seems to already be an expert on it.
+- **[04:18]** And you have full guides being released on something that was literally released two days ago.
+- **[04:23]** And that can make you feel like you're the only one that's still trying to figure things out.
+- **[04:27]** But the truth is, most people are in that same exact bow.
+- **[04:31]** It's just that the influencers are the loudest.
+- **[04:34]** And this definitely, it doesn't pertain to all content creators.
+- **[04:37]** I think there's a big difference between a content creator, that's a teacher, someone that tries to help people, and a tech influencer, which is someone that tries to influence people.
+- **[04:48]** And a lot of the influencers, they have these pre-made scripts and they basically just replaced the name of the tool and some of the other stuff.
+- **[04:55]** And ultimately it's the same crap.
+- **[04:58]** But yeah, nobody's keeping up with all the new tech.
+- **[05:01]** I know it can seem that way, but the people that look like they're keeping up usually aren't going very deep on any of it.
+- **[05:08]** And a lot of them are just being paid to say what they say.
+- **[05:12]** a lot of, in fact, some of the popular accounts on Twitter, you can tell that they have AI generate their opinions so that they can just post every hour and get that engagement, get those clicks because to a lot of people on social media, that's really all that matters.
+- **[05:27]** And I hate that because it makes people that are actually trying to learn, feel like they're way behind when they're really not.
+- **[05:35]** They're really doing the right things, learning the fundamentals and so on, but they feel like, I'm not doing it right.
+- **[05:42]** Also, there's a real difference between keeping up and actually understanding something.
+- **[05:48]** You can keep up and watch every announcement video.
+- **[05:51]** You can follow every thread and still not know how to use any of it when you actually sit down to build something.
+- **[05:59]** So to me, that's not really learning and knowing that's more of just consuming.
+- **[06:04]** When you're constantly jumping to the next thing, you never really get good in anything.
+- **[06:08]** You never get graded any.
+- **[06:10]** and you end up with a shallow understanding of 20 tools instead of a real understanding of a few.
+- **[06:16]** And the irony is that people who go deep on the fundamentals, they pick up new tools faster anyway.
+- **[06:22]** That foundational knowledge it transfers.
+- **[06:26]** And trust me, I know all about this because of the nature of what I do.
+- **[06:29]** I tend to be a jack of all trades, but master of few, because I teach and I need to know a huge range of topics.
+- **[06:37]** However, that's never my advice.
+- **[06:39]** That's not my advice to a regular developer.
+- **[06:41]** That's not going to be teaching.
+- **[06:43]** I always say to explore and find what really clicks.
+- **[06:47]** That's the point of making all these crash courses and stuff.
+- **[06:51]** But once you find that specific tech stack, then become a master of that stack.
+- **[06:56]** I did this back in the day with PHP and MVC frameworks.
+- **[07:00]** And then of course more recently react in the next JS ecosystem.
+- **[07:05]** And diving deep is just so much more rewarding than if you're just moving from technology to technology.
+- **[07:13]** You get a lot more passion when you're really good and you're diving in deep to some.
+- **[07:18]** The funny thing is that even though things have changed so much over the past two years, if a beginner asks me what they should do to be a developer, my answer is still the same as it's always been, whether it was 2015 or now.
+- **[07:30]** And that's the fundamentals, the fundamentals of a language, of a framework, tools like Git that have been around forever and will be around forever, problem solving, things that don't expire.
+- **[07:41]** You know, I never recommend any AI tools to a beginner.
+- **[07:45]** My tip is that when you find yourself doing repetitive tasks over and over, that's when you bring in AI.
+- **[07:51]** Like let's say that you've built enough REST APIs and Express or Django or whatever it is that you use.
+- **[07:58]** You know, you know exactly how to, how a route handler is structured.
+- **[08:03]** You know how middleware works.
+- **[08:04]** You understand how to handle errors.
+- **[08:06]** You've written the same crud end point enough where it's just, it's basically just muscle mess.
+- **[08:12]** And at that point, letting AI scaffold out a new set of routes for you is totally fine.
+- **[08:17]** That's what I believe AI is for.
+- **[08:20]** And I think it's great for that.
+- **[08:21]** I'm definitely not against AI.
+- **[08:23]** I mean, I just did a course on it.
+- **[08:25]** I'm against how some beginners approach.
+- **[08:28]** Now my advice on the whole content pipeline of tools being released, released every day, stop treating every new release like required homework.
+- **[08:39]** You don't have to have an opinion on everything by Tuesday.
+- **[08:43]** Also if something was just released,
+- **[08:46]** don't pay attention to much to what people say online.
+- **[08:48]** The honest takes, they really come out after the hype dies down because then people actually had time to use it and not just read announcements and change logs and make hype videos and Twitter posts for engagement.
+- **[09:01]** Focus on the meat and potatoes of your tech stack and know that it's okay to avoid all the noise.
+- **[09:08]** But that's it guys.
+- **[09:10]** As always, thanks for watching and I will see you next time.

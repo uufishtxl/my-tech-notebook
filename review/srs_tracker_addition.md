@@ -1,0 +1,1 @@
+- [ ] [DRF/Serializer] validators = [] 的使用场景 (在执行批量 update_or_create 时，为什么要手动关闭 Serializer 的表层唯一性校验) (Last: 2026-03-05)

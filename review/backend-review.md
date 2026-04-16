@@ -1,5 +1,57 @@
 # 后端复习笔记
 
+## 2026-02-02 测试记录 (5+5+5 Session)
+
+### ✅ 已掌握
+- **Django Signals**: post_save vs pre_save 区分清晰。
+- **QuerySet 惰性求值**: 准确理解 list() 触发执行。
+- **RESTful 命名**: 嵌套资源风格理解正确。
+
+### ❌ 待加强 / 新增盲点
+- **[DRF] Serializer 嵌套**: 需手动实践。
+    ```python
+    class SliceSerializer(serializers.ModelSerializer):
+        audio_file = AudioFileSerializer(read_only=True)
+    ```
+- **[Database] 事务隔离级别**: 记住顺序 RU→RC→RR→S（从低到高，并发性递减，安全性递增）。
+
+
+
+## 2026-01-29 测试记录 (5+5+5 Session)
+
+### ✅ 已掌握
+- **JOINs**: 完美掌握 "Left=保左", "Inner=两情相悦" 的核心概念。
+- **subprocess 安全**: 理解 List 传参防止 Shell 注入的原理。
+- **ACID Atomicity**: 准确定义原子性（全成功或全失败）。
+- **Token Expiration**: 前端拦截思路正确（减少请求），但需注意服务端 401 才是最终权威。
+
+### ❌ 待加强 / 新增盲点
+- **[Django] MEDIA vs STATIC**: (Pass) 核心区别在于“谁产生的”。
+    - **Static**: 开发者写的（CSS, Logo, JS）。部署时收集。
+    - **Media**: 用户上传的（Avatar, Audio）。运行时产生。
+
+## 2026-01-28 测试记录 (5+5+5 Session)
+
+### ✅ 已掌握
+- **[ORM] select_related**: 纠正了之前的混淆，理解清晰 (JOIN vs Python Loop)。
+- **[Security] Password Salt**: 理解防止彩虹表攻击的核心作用。
+- **[API] PUT vs PATCH**: 清楚全量替换 vs 局部更新的区别。
+
+### ❌ 待加强 / 新增盲点
+- **[Security] subprocess.run**: 跳过。需掌握 `shell=False` + 列表传参防止 Shell 注入。
+- **[Storage] FileField**: 跳过。需了解 `pre_save` 钩子及 Storage API 的文件保存时机。
+
+
+## 2026-01-27 测试记录 (5+5+5 Session)
+
+### ✅ 已掌握
+- **MCP Server**: 虽有犹豫，但理解“上下文提供者”的核心。
+- **Git Security**: `git rm --cached` + Rotate Key (Perfect).
+
+### ❌ 待加强 / 新增盲点
+- **[ORM] select_related**: 混淆了 `select_related` (Join) 和 `prefetch_related` (Python Join)。
+- **[Security] Password Salt**: 知道要加密，但忽略了 Salt 防止彩虹表的重要性。
+
 
 ## 2026-01-25 测试记录 (5+5+5 Session)
 
